@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paroisse Mariya Mamu wa Karmel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- En-tête / Barre de navigation -->
+    <header>
+        <div class="container">
+            <h1>Paroisse Mariya Mamu wa Karmel</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#horaires">Horaires</a></li>
+                    <li><a href="#actualites">Actualités</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <h2>Bienvenue dans notre communauté paroissiale</h2>
+            <p>« Car là où deux ou trois sont assemblés en mon nom, je suis au milieu d'eux. »</p>
+            <a href="#horaires" class="btn">Voir les horaires des messes</a>
+        </div>
+    </section>
+
+    <!-- Section Horaires -->
+    <section id="horaires" class="container section">
+        <h2>Horaires des Célébrations</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Messes Dominicales (Dimanche)</h3>
+                <p><strong>07h00 :</strong> Première messe</p>
+                <p><strong>09h30 :</strong> Messe solennelle</p>
+            </div>
+            <div class="card">
+                <h3>Messes en semaine</h3>
+                <p>Lundi au Vendredi : <strong>06h00</strong></p>
+            </div>
+            <div class="card">
+                <h3>Confessions & Permanence</h3>
+                <p>Mercredi et Vendredi de 15h à 17h</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="footer-section">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <p>Adresse : Kananga, RDC</p>
+            <p>&copy; 2026 Paroisse Mariya Mamu wa Karmel. Tous droits réservés.</p>
+        </div>
+    </section>
+
+</body>
+</html>
